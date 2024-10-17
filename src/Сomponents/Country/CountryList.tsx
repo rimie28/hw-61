@@ -16,8 +16,8 @@ const CountryList = () => {
   return (
     <>
       {countries.map((country) => (
-        <div key={country.alpha3Code}>
-          <p>{country.name}</p>
+        <div key={country.alpha3Code} className="border-bottom">
+          <p className="m-0 p-2">{country.name}</p>
         </div>
       ))}
     </>
