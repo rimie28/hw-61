@@ -9,4 +9,4 @@ export interface CountryInfoProps {
   population: number;
   borders: string;
   flag: string;
-};
+}
